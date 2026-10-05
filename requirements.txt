@@ -1,5 +1,6 @@
-kurigram
-TgCrypto
+kurigram>=2.2.26
+tgcrypto==1.2.5
 requests
-yt-dlp
+yt-dlp[default]
+curl_cffi>=0.10,<0.14
 python-dotenv
