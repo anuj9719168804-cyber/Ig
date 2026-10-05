@@ -3,4 +3,4 @@ tgcrypto==1.2.5
 requests
 yt-dlp[default]
 curl_cffi>=0.10,<0.14
-python-dotenv
+python-dotenv==1.0.0
