@@ -12,9 +12,9 @@ import insta
 
 load_dotenv()
 
-API_ID = int(os.environ["API_ID"])
-API_HASH = os.environ["API_HASH"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+API_ID = int(os.environ["API_ID", ""])
+API_HASH = os.environ["API_HASH", ""]
+BOT_TOKEN = os.environ["BOT_TOKEN", ""]
 INSTA_COOKIES = os.getenv("INSTA_COOKIES")  # bot owner ka ek server-side cookies.txt (sirf Stories/Highlights ke liye); users ko login nahi karna
 MAX_PARALLEL = int(os.getenv("MAX_PARALLEL", "3"))
 
